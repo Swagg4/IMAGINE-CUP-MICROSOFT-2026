@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/logo.png" alt="AgriVision NTB Logo" width="120"/>
+  <img src="assets/images/app_icon.png" alt="AgriVision NTB Logo" width="120"/>
 </p>
 
 <h1 align="center">AgriVision NTB</h1>
